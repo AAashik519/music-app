@@ -6,6 +6,7 @@ import d3 from '../img/d3.png'
 import d4 from '../img/d4.png'
 import search from '../img/search.png'
 import Path from '../img/Path 318.png'
+import MusicPlayer from './MusicPlayer'
 const Search = () => {
   return (
     <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]">
@@ -81,6 +82,7 @@ const Search = () => {
           </div>
 
           {/* music player */}
+          <MusicPlayer />
       </div>
     </div>
   );
